@@ -1,6 +1,6 @@
 {
   "StructureTemplate" : {
-    "type": "StructureTemplates:LavaBathHouse",
+    "type": "StructureTemplatesVaibhavBajaj:LavaBathHouse",
     "front": "FRONT",
     "spawnChance": 3
   },

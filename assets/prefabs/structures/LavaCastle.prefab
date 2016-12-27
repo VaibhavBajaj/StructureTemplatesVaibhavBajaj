@@ -1,6 +1,6 @@
 {
   "StructureTemplate" : {
-    "type": "StructureTemplates:LavaCastle",
+    "type": "StructureTemplatesVaibhavBajaj:LavaCastle",
     "front": "FRONT",
     "spawnChance": 1
   },
