@@ -1,0 +1,73 @@
+{
+  "StructureTemplate" : {
+    "type": "StructureTemplates:LavaBathHouse",
+    "front": "FRONT",
+    "spawnChance": 3
+  },
+  "SpawnBlockRegions": {
+    "regionsToFill": [
+      { "blockType": "core:chest.FRONT", "region": { "min": [0, -3, 4], "size": [1, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -4, 1], "size": [7, 6, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, 2, 1], "size": [2, 4, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, 6, 1], "size": [7, 2, 1]}},
+      { "blockType": "core:companion", "region": { "min": [2, 2, 1], "size": [2, 4, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -4, 2], "size": [7, 1, 3]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -3, 2], "size": [1, 10, 5]}},
+      { "blockType": "core:companion", "region": { "min": [-3, 7, 2], "size": [7, 1, 5]}},
+      { "blockType": "core:companion", "region": { "min": [0, 0, 2], "size": [1, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [3, -3, 2], "size": [1, 10, 4]}},
+      { "blockType": "core:companion", "region": { "min": [0, -3, 3], "size": [1, 2, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-1, -3, 4], "size": [1, 2, 1]}},
+      { "blockType": "core:companion", "region": { "min": [1, -3, 4], "size": [1, 2, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -5, 5], "size": [1, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -4, 5], "size": [4, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [0, -3, 5], "size": [1, 2, 1]}},
+      { "blockType": "core:companion", "region": { "min": [2, -4, 5], "size": [2, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -4, 6], "size": [7, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [2, -2, 6], "size": [2, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [3, -3, 6], "size": [1, 1, 1]}},
+      { "blockType": "core:companion", "region": { "min": [3, -1, 6], "size": [1, 8, 1]}},
+      { "blockType": "core:companion", "region": { "min": [-3, -4, 7], "size": [7, 12, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -3, 2], "size": [5, 3, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, 0, 2], "size": [2, 1, 1]}},
+      { "blockType": "core:lava", "region": { "min": [1, 0, 2], "size": [2, 1, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -3, 3], "size": [2, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -1, 3], "size": [1, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [1, -3, 3], "size": [2, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [2, -1, 3], "size": [1, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -3, 4], "size": [1, 4, 1]}},
+      { "blockType": "core:lava", "region": { "min": [0, -2, 4], "size": [1, 1, 1]}},
+      { "blockType": "core:lava", "region": { "min": [2, -3, 4], "size": [1, 4, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -3, 5], "size": [2, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -1, 5], "size": [1, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [1, -4, 5], "size": [1, 1, 1]}},
+      { "blockType": "core:lava", "region": { "min": [1, -3, 5], "size": [2, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [2, -1, 5], "size": [1, 2, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -3, 6], "size": [5, 1, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -2, 6], "size": [4, 1, 1]}},
+      { "blockType": "core:lava", "region": { "min": [-2, -1, 6], "size": [5, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [-1, 2, 1], "size": [3, 4, 1]}},
+      { "blockType": "engine:air", "region": { "min": [-2, 1, 2], "size": [5, 6, 5]}},
+      { "blockType": "engine:air", "region": { "min": [-1, -1, 3], "size": [3, 2, 3]}}
+    ]
+  },
+  "AddItemsToChest": {
+    "chestsToFill": [
+      {
+        "position": [0, -3, 4],
+        "items": [
+          {"itemPrefab": "Equipment:DiamondKatana"}
+        ]
+      }
+    ]
+  },
+  /* For debugging purposes it is an item */
+  "parent" : "engine:iconItem",
+  "DisplayName" : {
+    "name" : "A bath house with a lava tub and a hidden secret."
+  },
+  "Item" : {
+    "icon" : "engine:items#whiteRecipe"
+  },
+  "SpawnStructureAction": {}
+}

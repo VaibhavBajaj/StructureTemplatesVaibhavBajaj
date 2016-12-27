@@ -1,0 +1,9 @@
+{
+    "id" : "StructureTemplatesVaibhavBajaj",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "He Who Shall Not Be Named (VaibhavBajaj)",
+    "displayName" : "Structure Templates By VaibhavBajaj",
+    "description" : "This module contains two structureTemplates - LavaBathHouse, LavaCastle",
+    "dependencies" : [{"id": "Core", "minVersion": "1.0.0"}, {"id": "Equipment", "minVersion": "0.2.0"}],
+    "isServerSideOnly" : false
+}
